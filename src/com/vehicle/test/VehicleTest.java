@@ -7,7 +7,7 @@ public class VehicleTest {
 
     public static void main(String[] args) {
         Car car = new Car();
-        car.setSpeed(120.5);
+        car.setSpeed(130.5);
         car.setFuelLevel(50.0f);
         car.drive(15000);
         System.out.println("Car speed in mph: " + car.getSpeedMph());
